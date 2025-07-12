@@ -2,9 +2,9 @@
 :root {
     --primary-color: #007BFF;
     --secondary-color: #6c757d;
-    --bg-color: #f8f9fa;
+    --bg-color: #e1e5e9;
     --text-color: #343a40;
-    --header-bg: #ffffff;
+    --header-bg: #c9dadd;
     --font-primary: 'Montserrat', sans-serif;
     --font-secondary: 'Roboto', sans-serif;
 }
