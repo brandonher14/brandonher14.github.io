@@ -124,3 +124,17 @@ body {
 .blog-post-summary h3 a { text-decoration: none; color: var(--text-color); font-family: var(--font-primary); }
 .post-meta { color: var(--secondary-color); font-size: 0.9rem; }
 .read-more { color: var(--primary-color); text-decoration: none; font-weight: 700; }
+
+.card-img-top {
+    object-fit: cover;
+    height: 220px;
+    background: #f8f9fa;
+}
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 18px;
+}
+.card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+}
