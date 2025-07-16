@@ -1,18 +1,53 @@
-<!-- (Copia la cabecera y el pie de página del index.html) -->
-<!-- El contenido principal (<main>) sería el siguiente: -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Brandon Hernández</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="index.html" class="logo">Brandon Hernández</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="resumen-profesional.html">Resumen Profesional</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<main class="container page-section">
-    <h2 class="section-title">Mi Blog</h2>
-    
-    <div class="blog-list">
-        <!-- Entrada de Blog 1 -->
-        <article class="blog-post-summary">
-            <h3><a href="posts/mi-primer-post.html">Título de mi Primer Artículo</a></h3>
-            <p class="post-meta">Publicado el 11 de Julio, 2025</p>
-            <p>Este es un extracto del artículo donde explico un concepto clave o cuento una historia sobre un proyecto. La idea es enganchar al lector...</p>
-            <a href="posts/mi-primer-post.html" class="read-more">Leer más &rarr;</a>
-        </article>
+    <main class="container page-section">
+        <h2 class="section-title">Mi Blog</h2>
+        
+        <div class="blog-list">
+            <!-- Entrada de Blog 1 -->
+            <article class="blog-post-summary">
+                <h3><a href="posts/mi-primer-post.html">Construyendo mi Casa Digital: La Historia Detrás de Este Sitio Web</a></h3>
+                <p class="post-meta">Publicado el 11 de Julio, 2025</p>
+                <p>"Si estás en el mundo del desarrollo, sabes que una de las primeras cosas que te dicen es: 'necesitas un portafolio'. Pero, ¿cómo se pasa de una carpeta vacía a un sitio funcional que te represente? Esta no es una guía sobre cómo hacer el portafolio perfecto. Es la crónica real de cómo construí el sitio que estás navegando ahora mismo."</p>
+                <a href="posts/post1.html" class="read-more">Leer más &rarr;</a>
+            </article>
 
-        <!-- Agrega más resúmenes de artículos aquí -->
-    </div>
-</main>
+            <!-- Agrega más resúmenes de artículos aquí -->
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-social">
+                <a href="https://github.com/brandonher14" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/brandonhernandez09" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mail to:bhernandezjim@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2025 Brandon Hernández. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
