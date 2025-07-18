@@ -256,6 +256,30 @@ body {
 
 .skills-logos i, .skills-logos img {
     margin-bottom: 6px;
+     transition: transform 0.3s ease;
+}
+.skills-logos i:hover {
+  transform: scale(1.1);
+}
+.habilidades-blandas-titulo {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+    color: #4338ca;
+}
+.habilidades-blandas p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 8px;
+    padding: 4px 0;
+    border-bottom: 1px solid #ddd;
+    font-weight: bolder;
+}
+.habilidades-blandas p:hover {
+    transform: scale(1.05);
 }
 
 /* --- Footer --- */
@@ -264,6 +288,10 @@ body {
     color: #fff;
     padding: 24px 0 10px 0;
     margin-top: 40px;
+}
+
+.site-footer p {
+    text-align: center;
 }
 
 .footer-social {
